@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Programming Rust - It is intended to be a language for highly concurrent and highly secure systems. - Kasweri</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="A programming language empowering everyone to build reliable and efficient software.">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Kasweri" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Kasweri</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+	
+    <script data-cfasync="false">
+    var _avp = _avp || [];
+    (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = window.location.protocol + '//adserver.adreactor.com/js/libcode3.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    
+	
+	    
+    <script>
+    if (!document.cookie || document.cookie.indexOf('AVPWCAP=') == -1) {
+    _avp.push({ alias: '/', type: 'window', zid: 23, pid: 8697 });
+    }
+    </script>
+    
+	
+<script>(function(a,b,c){Object.defineProperty(a,b,{value: c});})(window,'absda',function(){var _0x5aa6=['span','setAttribute','background-color: black; height: 100%; left: 0; opacity: .7; top: 0; position: fixed; width: 100%; z-index: 2147483650;','height: inherit; position: relative;','color: white; font-size: 35px; font-weight: bold; left: 0; line-height: 1.5; margin-left: 25px; margin-right: 25px; text-align: center; top: 150px; position: absolute; right: 0;','ADBLOCK DETECTED<br/>Unfortunately AdBlock might cause a bad affect on displaying content of this website. Please, deactivate it.','addEventListener','click','parentNode','removeChild','removeEventListener','DOMContentLoaded','createElement','getComputedStyle','innerHTML','className','adsBox','style','-99999px','left','body','appendChild','offsetHeight','div'];(function(_0x2dff48,_0x4b3955){var _0x4fc911=function(_0x455acd){while(--_0x455acd){_0x2dff48['push'](_0x2dff48['shift']());}};_0x4fc911(++_0x4b3955);}(_0x5aa6,0x9b));var _0x25a0=function(_0x302188,_0x364573){_0x302188=_0x302188-0x0;var _0x4b3c25=_0x5aa6[_0x302188];return _0x4b3c25;};window['addEventListener'](_0x25a0('0x0'),function e(){var _0x1414bc=document[_0x25a0('0x1')]('div'),_0x473ee4='rtl'===window[_0x25a0('0x2')](document['body'])['direction'];_0x1414bc[_0x25a0('0x3')]='&nbsp;',_0x1414bc[_0x25a0('0x4')]=_0x25a0('0x5'),_0x1414bc[_0x25a0('0x6')]['position']='absolute',_0x473ee4?_0x1414bc[_0x25a0('0x6')]['right']=_0x25a0('0x7'):_0x1414bc[_0x25a0('0x6')][_0x25a0('0x8')]=_0x25a0('0x7'),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x1414bc),setTimeout(function(){if(!_0x1414bc[_0x25a0('0xb')]){var _0x473ee4=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x3c0b3b=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x1f5f8c=document[_0x25a0('0x1')](_0x25a0('0xd')),_0x5a9ba0=document['createElement']('p');_0x473ee4[_0x25a0('0xe')]('style',_0x25a0('0xf')),_0x3c0b3b['setAttribute']('style',_0x25a0('0x10')),_0x1f5f8c[_0x25a0('0xe')](_0x25a0('0x6'),'color: white; cursor: pointer; font-size: 50px; font-weight: bold; position: absolute; right: 30px; top: 20px;'),_0x5a9ba0[_0x25a0('0xe')](_0x25a0('0x6'),_0x25a0('0x11')),_0x5a9ba0[_0x25a0('0x3')]=_0x25a0('0x12'),_0x1f5f8c[_0x25a0('0x3')]='&#10006;',_0x3c0b3b['appendChild'](_0x5a9ba0),_0x3c0b3b[_0x25a0('0xa')](_0x1f5f8c),_0x1f5f8c[_0x25a0('0x13')](_0x25a0('0x14'),function _0x3c0b3b(){_0x473ee4[_0x25a0('0x15')][_0x25a0('0x16')](_0x473ee4),_0x1f5f8c['removeEventListener']('click',_0x3c0b3b);}),_0x473ee4[_0x25a0('0xa')](_0x3c0b3b),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x473ee4);}},0xc8),window[_0x25a0('0x17')]('DOMContentLoaded',e);});});</script><script type='text/javascript' onerror='absda()' src='//blissfuldes.com/41/6c/2e/416c2e838ffd0ebdc5c06cfa83cc5244.js'></script>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Programming Rust - It is intended to be a language for highly concurrent and highly secure systems.</h1>
+			
+		</header><div class="content post__content clearfix">
+			
+<section>
+    <aside>
+        <a href="https://developer.ibm.com/developer/default/articles/os-developers-know-rust/images/Figure01.png"><img alt="Rust Programming Language Ibm Developer It compiles to native code; rust programming language ibm developer" src="https://developer.ibm.com/developer/default/articles/os-developers-know-rust/images/Figure01.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8BOoDXsT7yYo6AEgmMLk3vM2y5rgx_K4Mw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>529x179 - Rust is a modern systems programming language developed by the mozilla corporation. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 529x179</li> 
+    <mark>Rust Programming Language Ibm Developer </mark> Follow their code on github.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://hackernoon.com/hn-images/1*VNFjQJ06WsK4T5qRJpvVMQ.png"><img alt="Programming In Rust The Good The Bad The Ugly Hacker Noon Though it&#039;s quite difficult to create a programming language better than c, c++, or java, mozilla has managed to develop a language that can ensure better security and privacy on the internet. programming in rust the good the bad" src="https://hackernoon.com/hn-images/1*VNFjQJ06WsK4T5qRJpvVMQ.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ7TqijwbwTOSXrXlkpSmWgoN7fm515igNRw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1600x1361 - Последние твиты от rust language (@rustlang). </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1600x1361</li> 
+    <mark>Programming In Rust The Good The Bad The Ugly Hacker Noon </mark> Последние твиты от rust language (@rustlang).
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://opensource.com/sites/default/files/lead-images/rust_programming_crab_sea.png"><img alt="Learn Rust By Writing A Simple Game Opensource Com It is intended to be a language for highly concurrent and highly secure systems. learn rust by writing a simple game" src="https://opensource.com/sites/default/files/lead-images/rust_programming_crab_sea.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWdPJ4ke2_aIlElBO0_T-ERrSaCfGJ8pgJQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1040x585 - Though it&#039;s quite difficult to create a programming language better than c, c++, or java, mozilla has managed to develop a language that can ensure better security and privacy on the internet. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1040x585</li> 
+    <mark>Learn Rust By Writing A Simple Game Opensource Com </mark> Rust can be used to write command line tools, web applications, and network among rust programmers, the language enjoys great popularity.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://doc.rust-lang.org/book/img/ferris/panics.svg"><img alt="Introduction The Rust Programming Language Though it&#039;s quite difficult to create a programming language better than c, c++, or java, mozilla has managed to develop a language that can ensure better security and privacy on the internet. the rust programming language" src="https://doc.rust-lang.org/book/img/ferris/panics.svg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr67Hw9P_Np4pioa1IRycgO7BjCTrhaCn5kQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1435x947 - 3,919 likes · 12 talking about this. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1435x947</li> 
+    <mark>Introduction The Rust Programming Language </mark> 3,919 likes · 12 talking about this.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ytimg.com/vi/c_Op__H7CIk/maxresdefault.jpg"><img alt="The Rust Programming Language Why Dynamic Dispatch Youtube O&#039;reilly members experience live online training, plus books, videos, and digital content from 200+ publishers. the rust programming language why" src="https://i.ytimg.com/vi/c_Op__H7CIk/maxresdefault.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJA1KNIproKXSQn6sMSRPD34qvuNur4OzHg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1280x720 - Rust is a programming language by mozilla. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1280x720</li> 
+    <mark>The Rust Programming Language Why Dynamic Dispatch Youtube </mark> Rust is syntactically similar to c++.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://www.rust-lang.org/static/images/rust-social-wide.jpg"><img alt="Rust Programming Language A programming language empowering everyone to build reliable and efficient software. rust programming language" src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-Ivbz25_Qg15UoWoUi0KvhGFjnJBd0cNMw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>2048x1024 - Follow their code on github. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 2048x1024</li> 
+    <mark>Rust Programming Language </mark> The rust programming language has 159 repositories available.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/140649894/original/c8842bc610ca014f77598afae2a213475128fba1/teach-basic-rust-programming-language.png"><img alt="Teach Basic Rust Programming Language By Jaredlanders Последние твиты от rust language (@rustlang). teach basic rust programming language" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/140649894/original/c8842bc610ca014f77598afae2a213475128fba1/teach-basic-rust-programming-language.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSJYgAy4QTHe1vdMJ_XlR960cm9-4VT71WUQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>773x927 - Get programming rust now with o&#039;reilly online learning. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 773x927</li> 
+    <mark>Teach Basic Rust Programming Language By Jaredlanders </mark> Последние твиты от rust language (@rustlang).
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://itbook.store/img/books/9781491927281.png"><img alt="Programming Rust Free Download Pdf Price Reviews It Books It is intended to be a language for highly concurrent and highly secure systems. bookstore" src="https://itbook.store/img/books/9781491927281.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvi7zSVKjRrKEU4nLBwQJ2icq1h7YuOn55g&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>300x350 - O&#039;reilly members experience live online training, plus books, videos, and digital content from 200+ publishers. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 300x350</li> 
+    <mark>Programming Rust Free Download Pdf Price Reviews It Books </mark> Rust is a programming language by mozilla.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png"><img alt="Rust Programming Language Wikipedia Though it&#039;s quite difficult to create a programming language better than c, c++, or java, mozilla has managed to develop a language that can ensure better security and privacy on the internet. rust programming language wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYyvx_pyaAcBSSr_SGB0qbbuPwxwGFmsmaJA&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1200x1200 - Though it&#039;s quite difficult to create a programming language better than c, c++, or java, mozilla has managed to develop a language that can ensure better security and privacy on the internet. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x1200</li> 
+    <mark>Rust Programming Language Wikipedia </mark> O&#039;reilly members experience live online training, plus books, videos, and digital content from 200+ publishers.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://images.idgesg.net/images/article/2018/12/rust-visual-studio-code-100782053-large.jpg"><img alt="What Is The Rust Language Safe Fast And Easy Software Development Infoworld Though it&#039;s quite difficult to create a programming language better than c, c++, or java, mozilla has managed to develop a language that can ensure better security and privacy on the internet. what is the rust language safe fast" src="https://images.idgesg.net/images/article/2018/12/rust-visual-studio-code-100782053-large.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5CC2eBDrOlH9A_vW5L9YcjRuGnsX9GqGUg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>700x525 - Get programming rust now with o&#039;reilly online learning. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 700x525</li> 
+    <mark>What Is The Rust Language Safe Fast And Easy Software Development Infoworld </mark> See more of the rust programming language on facebook.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmd5km8WNypChNEMJYXF98Ud3B4Wo85SEGGX29b3aFsqWs/Screenshot_2018-11-30%20Rust%20-%20index.png"><img alt="Evaluating The Rust Programming Language I Don T Like Rust So I M Learning It Steemit O&#039;reilly members experience live online training, plus books, videos, and digital content from 200+ publishers. rust programming language" src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmd5km8WNypChNEMJYXF98Ud3B4Wo85SEGGX29b3aFsqWs/Screenshot_2018-11-30%20Rust%20-%20index.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJX_o8VGVnd2oJMR_KUVbzcvyDQ5cYK44n2g&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>640x644 - Programming language rust has entered the top 20 of the tiobe popularity index for the first time, but it&#039;s still five spots behind systems programming rival go. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 640x644</li> 
+    <mark>Evaluating The Rust Programming Language I Don T Like Rust So I M Learning It Steemit </mark> See more of the rust programming language on facebook.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://pbs.twimg.com/media/DoxptEsVsAANJl2.jpg"><img alt="Systems Porn Auf Twitter Webserver In Glorious Rust Rustlang Rust Rustprogramming Webserver Programming Coding Functionalprogramming Systems Systemsprogramming Hacking Hacker Code Https T Co Lbeytlejph Follow their code on github. twitter" src="https://pbs.twimg.com/media/DoxptEsVsAANJl2.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhWOUlGpg153B2YbXnpySci9hNrxKzdRCP_A&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1200x653 - The rust programming language has 159 repositories available. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x653</li> 
+    <mark>Systems Porn Auf Twitter Webserver In Glorious Rust Rustlang Rust Rustprogramming Webserver Programming Coding Functionalprogramming Systems Systemsprogramming Hacking Hacker Code Https T Co Lbeytlejph </mark> Get programming rust now with o&#039;reilly online learning.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://m.media-amazon.com/images/I/4137XzPfsKL.jpg"><img alt="Rust Programming Rust Programming Foundations Laptrinhx Rust can be used to write command line tools, web applications, and network among rust programmers, the language enjoys great popularity. laptrinhx" src="https://m.media-amazon.com/images/I/4137XzPfsKL.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2GXx16a5FMqW-pvlkOMb_6G3WZGDFNw1MWw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>333x500 - Rust is a modern systems programming language developed by the mozilla corporation. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 333x500</li> 
+    <mark>Rust Programming Rust Programming Foundations Laptrinhx </mark> O&#039;reilly members experience live online training, plus books, videos, and digital content from 200+ publishers.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://alvinalexander.com/sites/default/files/2016-08/rust-programming-language-example.jpg"><img alt="The Rust Programming Language Alvinalexander Com Programming language rust has entered the top 20 of the tiobe popularity index for the first time, but it&#039;s still five spots behind systems programming rival go. the rust programming language" src="https://alvinalexander.com/sites/default/files/2016-08/rust-programming-language-example.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRSy46E1Uj9yewqdIXdmVUd-HUSrP2uMlYGQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>521x417 - The rust programming language has 159 repositories available. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 521x417</li> 
+    <mark>The Rust Programming Language Alvinalexander Com </mark> A programming language empowering everyone to build reliable and efficient software.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://c4.wallpaperflare.com/wallpaper/971/517/66/code-programming-rust-wallpaper-preview.jpg"><img alt="Hd Wallpaper Code Programming Rust Wallpaper Flare Follow their code on github. hd wallpaper code programming rust" src="https://c4.wallpaperflare.com/wallpaper/971/517/66/code-programming-rust-wallpaper-preview.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCMobI2FnkKC6s9SxIumKvF480eMVEgWnDCw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>728x409 - Programming language rust has entered the top 20 of the tiobe popularity index for the first time, but it&#039;s still five spots behind systems programming rival go. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 728x409</li> 
+    <mark>Hd Wallpaper Code Programming Rust Wallpaper Flare </mark> O&#039;reilly members experience live online training, plus books, videos, and digital content from 200+ publishers.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://miro.medium.com/max/946/1*fxzf9jXmklqPdIBp-xMiZA.png"><img alt="7 Best Rust Programming Courses And Books For Beginners In 2021 By Javinpaul Javarevisited Medium Rust can be used to write command line tools, web applications, and network among rust programmers, the language enjoys great popularity. 7 best rust programming courses and" src="https://miro.medium.com/max/946/1*fxzf9jXmklqPdIBp-xMiZA.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHtpAbhxUes7w3AyGi4QcMYmNiy5jMYyZsg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>946x609 - Follow their code on github. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 946x609</li> 
+    <mark>7 Best Rust Programming Courses And Books For Beginners In 2021 By Javinpaul Javarevisited Medium </mark> Rust is syntactically similar to c++.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://images-na.ssl-images-amazon.com/images/I/51MXS+4H4NL._SX258_BO1,204,203,200_.jpg"><img alt="Programming Rust Fast Safe Systems Development Amazon De Blandy Jim Orendorff Jason Tindall Leonora Fremdsprachige Bucher Последние твиты от rust language (@rustlang). amazon de" src="https://images-na.ssl-images-amazon.com/images/I/51MXS+4H4NL._SX258_BO1,204,203,200_.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-bJkqKUv2DY2zY-97Fh9EO7pFiDivyqxT2w&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>260x341 - Rust can be used to write command line tools, web applications, and network among rust programmers, the language enjoys great popularity. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 260x341</li> 
+    <mark>Programming Rust Fast Safe Systems Development Amazon De Blandy Jim Orendorff Jason Tindall Leonora Fremdsprachige Bucher </mark> Follow their code on github.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://image.slidesharecdn.com/pslab19-rust-190526125517/95/the-rust-programming-language-an-overview-1-638.jpg?cb=1558875506"><img alt="The Rust Programming Language An Overview Follow their code on github. the rust programming language an overview" src="https://image.slidesharecdn.com/pslab19-rust-190526125517/95/the-rust-programming-language-an-overview-1-638.jpg?cb=1558875506" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5poDyvdqcnu9O2STVbk24gPNUA08XlE5qw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>638x479 - Последние твиты от rust language (@rustlang). </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 638x479</li> 
+    <mark>The Rust Programming Language An Overview </mark> Follow their code on github.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.redd.it/rpuef1pqf2561.png"><img alt="Authors Of Programming Rust 2nd Edition Have A Sense Of Humor Rust Rust is a programming language by mozilla. programming rust 2nd edition" src="https://i.redd.it/rpuef1pqf2561.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAJLIpQdS_uyeM0cRpS3Y4jhzWTkZJTHVKcw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1904x1438 - Последние твиты от rust language (@rustlang). </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1904x1438</li> 
+    <mark>Authors Of Programming Rust 2nd Edition Have A Sense Of Humor Rust </mark> Rust is syntactically similar to c++.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://f001.backblazeb2.com/file/chriskrycho-com/images/trpl.jpg"><img alt="Review The Rust Programming Language Chris Krycho 3,919 likes · 12 talking about this. review the rust programming language" src="https://f001.backblazeb2.com/file/chriskrycho-com/images/trpl.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRozHnkASLJwCRg1e9v-dCZ_VQuv83msV3_wg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1200x900 - It is intended to be a language for highly concurrent and highly secure systems. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x900</li> 
+    <mark>Review The Rust Programming Language Chris Krycho </mark> Though it&#039;s quite difficult to create a programming language better than c, c++, or java, mozilla has managed to develop a language that can ensure better security and privacy on the internet.
+</blockquote>
+    </aside>
+</section>
+
+
+	<section>
+ 
+</section>
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://kasweri.vercel.app/" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/2021-hindi-movies/">2021 Hindi Movies / Upcoming hindi movies in 2021.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/blenders-pride-reserve-price-in-bangalore/">Blenders Pride Reserve Price In Bangalore / A blend of scotch whisky and indian grain spirit.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/ek-ajnabee-arjun-rampal-tattoo/">Ek Ajnabee Arjun Rampal Tattoo : Amitabh bachchan, sanjay dutt, arjun rampal and others.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/lavina-bhatia-actress/">Lavina Bhatia Actress : She was first seen in a music video after which tamanna turned to films.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/maanidan-movie-heroine-name/">Maanidan Movie Heroine Name : Ahmed, starring udhayanidhi stalin, hansika motwani and.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/manju-bhargavi-yogi-babu/">Manju Bhargavi Yogi Babu / Wow yogi babu has tied the knots to his wife manju bhargavi.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/old-indian-male-model/">Old Indian Male Model - I have explained all the crucial steps as.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/rohan-mehra-kanchi-singh-age/">Rohan Mehra Kanchi Singh Age - For more updates subscribe to my youtube channel.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/salman-khan-2000-photo/">Salman Khan 2000 Photo : Salman started his acting carrier in 1988 by doing a supporting role in the movie biwi ho to aisi (1988).</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/www-mxtube-net/">Www.mxtube.net - Miss teacher (hd) | komolika chanda | rahul sharma | reshma thakkar | bollywood romantic movie.</a></li>
+		</ul>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Kasweri.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21862896-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-21862896-2');
+</script>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
